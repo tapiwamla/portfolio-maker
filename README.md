@@ -1,64 +1,54 @@
-# PortfolioMaker
+# portfolio-maker
 
-## Web application for creating your own portfolio site.
+Developed by [Chidochashe Gerald Zhou](https://github.com/chidozhou) and [Tapiwanashe Mlambo](https://github.com/tapiwamla)
 
-This is full stack project. Base idea is that
-user can create his own account. Customize data,
-links, pictures and upload his resume. Finish
-result is a full portfolio website that user can
-share with the world.
+portfolio-maker is a dynamic web application designed for crafting personalized portfolio websites. This full-stack project empowers users to create accounts, customize content, upload images, and share their professional profiles with the world. Built with React, MongoDB, Node, and Express, portfolio-maker provides a seamless platform for showcasing your skills and experiences.
 
-Project was created with React, MongoDB, Node,
-Express.
+## Key Features
 
-Sone future features:
+- _User Accounts:_ Create and manage your account to curate a unique portfolio.
+- _Customization:_ Tailor your portfolio by modifying data, links, pictures, and uploading your resume.
+- _Live Sharing:_ Share your finished portfolio website with a global audience.
 
-- changing style of website, different templates,
-  colors etc.
-  
-  Click [here](https://portfoliomaker.onrender.com/) to see live version of this site.
+## How to Run the Project
 
-## HOW TO RUN PROJECT
+1. _Download Repository:_
 
-- download this repository to your local machine
-- in both client and server folders run command
-  <code>npm install</code>
-- in server folder run code <code>node
-  generateKeypairs.js</code> to crete your own RSA
-  key for encryption.
-- you need to have MongoDB on your local machine
-  or account in a cloud. [MongoDB
-  website](https://cloud.mongodb.com/)
-- project also includes other third party
-  technologies that we need to have accounts:
-  [Sendgrid](https://app.sendgrid.com/),
-  [Cloudinary](https://cloudinary.com/),
-- After setting up your accounts create .env file
-  inside of server folder. Update this file with
-  your credentials from accounts:
+   - Clone or download this repository to your local machine.
 
-```
-NODE_ENV=development
+2. _Install Dependencies:_
 
-DB_STRING= your local link to MongoDB
+   - Run npm install in the root directory.
+   - Navigate to both the client and server folders and run npm install.
 
-DB_STRING_PROD= your ling to MongoDB in cloud
+3. _Configure MongoDB:_
 
-SENDGRID_API_KEY= your API key from Sendgrid
+   - Ensure you have MongoDB installed on your local machine or set up an account in the cloud [MongoDB Website](https://www.mongodb.com/).
 
-CLOUD_NAME= cloud name from Cloudinary
+4. _Set Up Third-Party Accounts:_
 
-API_KEY=API key from Cloudinary
+   - Create accounts for third-party technologies like Sendgrid and Cloudinary.
+   - Inside the server folder, create a `.env` file and update it with your credentials:
 
-API_SECRET= API SECRET key from Cloudinary
-```
+   ```
+   NODE_ENV=development
+    DB_STRING=your_local_link_to_MongoDB
+    DB_STRING_PROD=your_link_to_MongoDB_in_cloud
+    SENDGRID_API_KEY=your_Sendgrid_API_key
+    CLOUD_NAME=your_Cloudinary_cloud_name
+    API_KEY=your_Cloudinary_API_key
+    API_SECRET=your_Cloudinary_API_SECRET_key
+   ```
 
-- after everything is set up run server and client
-  folde commant <code>npm run dev</code>
+5. _Generate RSA Key:_
 
-  Enjoy your Portfolio Maker app!
+   - Run node `generateKeypair.js` in the server folder to create your own RSA key for encryption.
 
+6. _Run the Project:_
 
+   - After setup, execute `npm start:dev` from the root directory.
 
-Credits: Special thanks go to for Jen Kramer from
-Frondendmasters for idea and design inspiration.
+7. _Enjoy Your Portfolio Maker App!_
+   - Your portfolio-maker app is now up and running. Explore the features and showcase your professional journey.
+
+We welcome your feedback and contributions to make portfolio-maker even better!
