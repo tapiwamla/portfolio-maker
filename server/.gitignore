@@ -1,0 +1,6 @@
+node_modules
+.env
+package-lock.json
+.eslintrc.js
+.eslingfonre
+id_rsa_priv.pem
