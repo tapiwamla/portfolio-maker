@@ -27,7 +27,7 @@ portfolio-maker is a dynamic web application designed for crafting personalized 
 
 4. _Set Up Third-Party Accounts:_
 
-   - Create accounts for third-party technologies like Sendgrid and Cloudinary.
+- Create accounts for third-party technologies: [Sendgrid](https://sendgrid.com) and [Cloudinary](https://cloudinary.com).
    - Inside the server folder, create a `.env` file and update it with your credentials:
 
    ```
