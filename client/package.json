@@ -5,6 +5,7 @@
   "type": "module",
   "proxy": "https://portfoliocreator.onrender.com",
   "scripts": {
+    "start": "vite",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
